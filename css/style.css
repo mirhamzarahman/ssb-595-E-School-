@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif ;
+
+}
+h1, h2, h3, h4, h5, h6, p, ul {
+
+    margin: 0;
+    padding: 0;
+}
+/* font-family: 'Poppins', sans-serif ; */ 
+
+
+/* header section */
+
+a.nav-link {
+    color: rgb(0, 0, 0);
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif ;
+}
+a.nav-link:hover{
+
+    color: #504b7d;
+}
+.hero_section{
+    background-color: #F0FFF0;
+     min-height: 100vh; 
+    
+}
+.hero_section h5{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif ;
+    color:  #FD511A;
+    
+}
+.hero_section h1{
+    font-size: 60px;
+    line-height: 70px;
+    font-family: 'Poppins', sans-serif ;
+    font-weight: 700;
+
+}
+.hero_section p{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif ;
+    font-weight: 600;
+    line-height: 36px;
+
+}
+.hero_section .btn-custom{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 33px;
+    padding: 10px 40px;
+    border: 1px solid #000;
+    background: #21B573;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: #21B573;
+}
+.hero_section span {
+    color: #00AF67;
+    font-family: 'Poppins', sans-serif ;
+}
+
+
+/* feature section */
+
+.feature_content {
+    text-align: center;
+    color: #FCFCFC;
+}
+.feature_content img{
+    width: 66px;
+    height: 85px;
+    flex-shrink: 0;
+
+}
+.feature_content h2 {
+    color: #413960;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+}
+.feature_content p {
+    color: #585859;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+.feature_content:hover{
+    box-shadow: 0px 20px 40px 0px #0000001A; 
+    background: #fff;
+    border-radius: 10px; 
+}
+
+/* course_section */
+
+.course_section{
+
+}
+.heading h1{
+    color: #413960;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+} 
+.course{
+    background: #fff;
+    padding: 20px ;
+    border-radius: 18px;
+    background: #FFF;
+    box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.10);
+}
+.course img{}
+.course h2{color: #413960;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;}
+.course p{color: #585859;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;}
+.course a{   border-radius: 33px;
+    background: #21B573;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.course a:hover{
+    background-color: #23d384;
+    color: white;
+}
+.course ul{
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+    padding: 0;
+}
+.course li{
+    margin-left: 10px;
+    list-style: none;
+    color: #585859;
+    font-family: Poppins;
+    margin-top: 15px;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.course ul li i{
+margin-right: 10px;
+}
+
+/* testimonial */
+.testimonial_title h1 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.Ellipse {
+height: 100px;
+width: 100px;
+    width: 20%;
+    margin-left: auto;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.Ellipse_p{
+    color: #000;
+font-family: Poppins;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 187.5% */
+}
+footer {
+    background-color:  #282531;
+    
+
+}
+ footer p {
+    color: #FFF;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+
+font-weight: 400;
+line-height: 30px; /* 187.5% */
+}
+footer ul{
+    list-style: none;
+    margin-left: 100px;
+}
+footer ul li{
+    color: #FFF;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 187.5% */
+}
+footer ul li a{
+    color: #FFF;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+text-decoration: none;
+line-height: 30px;
+}
+.Copyright{
+
+    color: #CDCDCD;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+    padding-top: 60px;
+     padding-bottom: 20px;
+
+}
